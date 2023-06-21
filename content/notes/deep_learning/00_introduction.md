@@ -9,7 +9,7 @@ menu:
   deep_learning:
     parent: Optimising Functions
     weight: 6
-
+summary: " "
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 1
 ---

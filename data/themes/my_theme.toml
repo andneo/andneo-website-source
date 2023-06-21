@@ -20,7 +20,7 @@ name = "my_theme"
 
 [dark]
   # Primary
-  primary = "#2e2e2e"
+  primary = "#2e2e2eb0"
   text = "#f92672"
   
   menu_primary = "#262525"
@@ -31,7 +31,7 @@ name = "my_theme"
   background = "#2e2e2e"
   
   # Home sections
-  home_section_odd = "#2e2e2e"
+  home_section_odd = "#2e2e2eb0"
   home_section_even = "#3b3b3b"
 
   link = "#fd971f"

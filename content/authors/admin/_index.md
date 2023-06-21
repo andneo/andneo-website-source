@@ -1,16 +1,18 @@
 ---
 # Display name
 name: Andreas Neophytou
-
+type: about
 # Username (this should match the folder name)
 authors:
 - admin
 
 # Is this the primary user of the site?
 superuser: true
+# Title: Andreas Neophytou
+# avatar_shape: square
 
 # Role/position
-role: Postdoctoral Researcher in Soft Matter
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
@@ -67,9 +69,11 @@ email: ""
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Researchers
-- Visitors
+user_groups: []
 ---
 
-My random walk through life has somehow led me to pursue a PhD in Chemistry, where my research interests broadly lie in the study of self-organising systems. I am particularly interested in understanding why systems spontaneously order themselves (or in some cases why they don't). I do this mainly from the comfort of my desk chair, where I develop code to perform numerical simulations and try to apply principles from statistical mechanics. I haven't formally been trained in statistical physics and so I decided to put together this site to act as a public digital scrapbook. Over the course of my PhD I want to populate this site with notes in statistical mechanics, quantum mechanics, photonics, machine learning and whatever else I come across that interests me. The idea is that this forces me to really understanding what I'm trying to learn and hopefully whoever stumbles across this site might learn something as well. -
+Hello there! My name is Andreas, I'm a recent PhD graduate currently undertaking a postdoc with Prof. [Francesco Sciortino](https://www.roma1.infn.it/~sciortif/index.html) at Sapienza Università di Roma. 
+
+I like to mess about with computers, and during the day I use them to study the self-assembly of soft matter systems. This website is meant to act as a digital scrapbook for my journey as a scientist and my other interests.
+
+Feel free to contact me about my research or anything else [here](#contact)

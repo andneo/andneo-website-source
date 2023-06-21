@@ -8,4 +8,5 @@ cascade:
   _build:
     render: never
     list: always
+type: about
 ---

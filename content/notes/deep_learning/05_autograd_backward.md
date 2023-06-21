@@ -8,14 +8,10 @@ draft: false
 menu:
   deep_learning:
     parent: Optimising Functions
-    weight: 6
+    weight: 7
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 7
 ---
-
-In this tutorial, I'll share my top 10 tips for getting started with Academic:
-
-## Tip 1
 
 {{< list_children >}}

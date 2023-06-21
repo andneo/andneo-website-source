@@ -10,7 +10,7 @@ menu:
   deep_learning:
     parent: Optimising Functions
     weight: 3
-
+summary: Implementing basic optimisation algorithms in Python
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 4
 ---
@@ -29,9 +29,9 @@ Consider, for now, the following arbitrary function where $\\textbf{x}=(x,y)^{T}
 $$
 z = f(x,y) = x^2 - y^2
 $$
-I have plotted this function for $x,y\in[-2,2]$ below, and we can see (from the 3D representation on the left) it has a [saddle](https://en.wikipedia.org/wiki/Saddle_point) shape.
+I have plotted this function for $x,y\in[-2,2]$ below, and we can see (from the 3D representation on the left) it has a [saddle](https://en.wikipedia.org/wiki/Saddle_point) shape (in other words it looks like a [Pringle potato chip](https://www.pringles.com/uk/home.html)).
 When $\textbf{x}=(0,0)^{T}$, $f(x,y)$ is at a [minimum](https://en.wikipedia.org/wiki/Maxima_and_minima) in the xz-plane and at a [maximum](https://en.wikipedia.org/wiki/Maxima_and_minima) in the yz-plane.
-{{< figure library="true" src="deep_learning/images/gradient.png" title="" >}}
+{{< figure library="true" src="/media/deep_learning/images/gradient.png" title="" >}}
 
 On the right I've shown a 2D [contour plot](https://www.statisticshowto.com/contour-plots/) of the same function, as well as the *_gradient_*.
 The gradient for this function is given by:

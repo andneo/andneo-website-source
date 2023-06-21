@@ -18,8 +18,10 @@
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 <!-- About widget -->
+<!-- <div id="particles-js"></div> -->
 <div class="row">
   <div class="col-12 col-lg-4">
+    
     <div id="profile">
 
       {{ if site.Params.features.avatar.gravatar }}
@@ -27,8 +29,8 @@
       {{ else if $avatar }}
       {{ $avatar_image := $avatar.Fill "270x270 Center" }}
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}"
-           width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}"
-           src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
+          width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}"
+          src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
       {{ end }}
 
       <div class="portrait-title">
@@ -83,12 +85,44 @@
   <div class="col-12 col-lg-8">
 
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
-    {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
+    <div class='biography-title'>
+      {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
+    </div>
 
-    <div class="article-style">
+    <div class="main-content">
       {{ $person_page.Content }}
     </div>
 
-    
+    <div class="row">
+
+      {{ with $person.interests }}
+      <div class="interests-div col-md-5">
+        <div class="section-subheading">{{ i18n "interests" | markdownify }}</div>
+        <ul class="ul-interests mb-0">
+          {{ range . }}
+          <li>{{ . | markdownify | emojify }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      {{ with $person.education }}
+      <div class="education-div col-md-7">
+        <div class="section-subheading">{{ i18n "education" | markdownify }}</div>
+        <ul class="ul-edu fa-ul mb-0">
+          {{ range .courses }}
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+              <p class="institution">{{ .institution }}</p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+    </div>
   </div>
 </div>

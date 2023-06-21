@@ -294,9 +294,9 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        If you want to get in contact with me, just shoot me a message below and I'll try to respond to you as fast as possible
+        If you want to get in contact with me, just shoot me at the address below and I'll try to respond to you as fast as possible
       # Contact (add or remove contact options as necessary)
-      # email: test@example.org
+      email: andnneo@gmail.com
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       # address:
@@ -326,13 +326,13 @@ sections:
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
