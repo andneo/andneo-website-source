@@ -17,9 +17,10 @@ jobs:
         submodules: true
 
     - name: Hugo Deploy GitHub Pages
-      uses: benmatselby/hugo-deploy-gh-pages@master
+      uses: benmatselby/hugo-deploy-gh-pages@main
       env:
-        HUGO_VERSION: 0.114.0
+        HUGO_VERSION: 0.114.0+extended darwin/arm64
         TARGET_REPO: andneo/andneo.github.io
         TOKEN: ${{ secrets.EXAMPLE_TOKEN }}
         CNAME: andneo.github.io
+        GO_VERSION: 1.20.5
