@@ -21,5 +21,5 @@ jobs:
       env:
         HUGO_VERSION: 0.114.0
         TARGET_REPO: andneo/andneo.github.io
-        TOKEN: ${{ secrets.TOKEN }}
+        TOKEN: ${{ secrets.EXAMPLE_TOKEN }}
         CNAME: andneo.github.io
