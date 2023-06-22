@@ -294,7 +294,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        If you want to get in contact with me, just shoot me at the address below and I'll try to respond to you as fast as possible
+        If you want to get in contact with me, just shoot me an email at the address below and I'll try to respond to you as fast as possible
       # Contact (add or remove contact options as necessary)
       email: andnneo@gmail.com
       # phone: 888 888 88 88
