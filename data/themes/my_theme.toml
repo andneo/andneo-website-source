@@ -3,25 +3,28 @@ name = "my_theme"
 
 [light]
   # Primary
-  primary = "#bf874b"
-
-  # Menu
-  menu_primary = "#264A33"
-  menu_text = "#fff"
-  menu_text_active = "#bf874b"
-  menu_title = "#bf874b"
-
-  # Home sections
-  home_section_odd = "fff"
-  home_section_even = "#F8F5F2"
+  primary = "#e83e8c"
+  text = "#e83e8c"
   
-  link = "#ad5d07"
-  link_hover = "#264A33"
+  menu_primary = "#262525"
+  menu_text = "#d9d4d4"
+  menu_text_active = "#f92672"
+  menu_title = "#d9d4d4"
+  
+  background = "#F4DBC9"
+  
+  # Home sections
+  home_section_odd = "#F4DBC9b0"
+  home_section_even = "#F7EAE2b0"
+
+  link = "#e83e8c;"
+  link_decoration = "#2e2e2e"
+  link_hover = "#087E8B"
 
 [dark]
   # Primary
   primary = "#2e2e2eb0"
-  text = "#f92672"
+  text = "#fd971f"
   
   menu_primary = "#262525"
   menu_text = "#d9d4d4"
@@ -32,8 +35,8 @@ name = "my_theme"
   
   # Home sections
   home_section_odd = "#2e2e2eb0"
-  home_section_even = "#3b3b3bE6"
+  home_section_even = "#3b3b3bCC"
 
-  link = "#fd971f"
-  link_decoration = "#d9d4d4"
-  link_hover = "#66d9ef"
+  link = "#e83e8c"
+  link_decoration = "#f92672"
+  link_hover = "#fd971f"
