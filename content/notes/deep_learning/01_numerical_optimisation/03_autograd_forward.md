@@ -8,10 +8,11 @@ draft: false
 menu:
   deep_learning:
     parent: Optimising Functions
-    weight: 6
+    weight: 5
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 6
+weight: 5
+summary: An introduction to forward-mode automatic differention and its implementation using operator overload in Python.
 ---
 
 {{< list_children >}}

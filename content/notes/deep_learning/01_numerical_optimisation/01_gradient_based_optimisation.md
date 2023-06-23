@@ -10,7 +10,7 @@ menu:
   deep_learning:
     parent: Optimising Functions
     weight: 3
-summary: Implementing basic optimisation algorithms in Python
+summary: A brief overview on the theory underpinning gradient-based optimisation algorithms (steepest descent and conjugate gradients) and their implemention.
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 4
 ---

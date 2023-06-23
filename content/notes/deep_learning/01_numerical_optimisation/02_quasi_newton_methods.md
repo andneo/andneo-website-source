@@ -10,7 +10,7 @@ menu:
   deep_learning:
     parent: Optimising Functions
     weight: 4
-summary: Implementing the BFGS and L-BFGS algorithms in Python
+summary: An overview of the BFGS and L-BFGS minimisation algorithms along with inexact line search algorithms, and their implementation.
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 4
 ---
