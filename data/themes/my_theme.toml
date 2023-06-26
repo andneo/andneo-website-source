@@ -5,6 +5,7 @@ name = "my_theme"
   # Primary
   primary = "#e83e8c"
   text = "#e83e8c"
+  text_highlight = "#2e2e2eb0"
   
   menu_primary = "#262525"
   menu_text = "#d9d4d4"
