@@ -1,5 +1,5 @@
 {{ $json := .Get "json" }}
-{{ $height := .Get "height" | default "200px" }}
+{{ $height := .Get "height" | default "400px" }}
 <div id="{{$json}}" class="plotly" style="height:{{$height}}"></div>
 <script>
 Plotly.d3.json({{$json}}, function(err, fig) {
