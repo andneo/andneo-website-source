@@ -135,9 +135,8 @@ $$
     \Delta\textbf{x}\_{i}^{T}\textbf{g}(\textbf{x}\_{i}) = \|\|\Delta\textbf{x}\_{i}\|\|~\|\|\textbf{g}(\textbf{x}\_{i})\|\|\cos\theta\_{i} < 0
 $$
 where $\theta\_{i}$ is the angle between $\Delta\textbf{x}\_{i}$ and $\textbf{g}(\textbf{x}\_{i})$, and it should now be clear that the choice for $\Delta\textbf{x}\_{i}$ which will give us the most rapid decrease in this linear approximation to our function is $\Delta\textbf{x}\_{i}=-\textbf{g}(\textbf{x}\_{i})$ since $\cos\theta\_{i}=-1$ in this scenario.
-
 {{< load-plotly >}}
-{{< plotly json="/media/deep_learning/plotly/test_file.json" height="400px" >}}
+{{< plotly json="/media/deep_learning/plotly/test_file.json" height="600px" >}}
 <!-- We can show that this is actually the case. To do this, our first step is to use Taylor's theorem to approximate our function $f(\textbf{x})$ any $\textbf{d}\_{i}$ and $\alpha\_{i}$ we have:
 $$
     f(\textbf{x}\_{i}+\alpha\_{i}\textbf{d}\_{i}) = f(\textbf{x}\_{i}) + \alpha\_{i}\textbf{d}\_{i}^{T}\textbf{g}(\textbf{x}\_{i}) + \frac{1}{2}\alpha^{2}\_{i}\textbf{d}\_{i}^{T}\textbf{H}(\textbf{x}\_{i})\textbf{d}\_{i}
