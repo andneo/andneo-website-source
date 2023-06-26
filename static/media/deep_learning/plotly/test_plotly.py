@@ -108,7 +108,7 @@ fig.update_layout(
     xaxis=dict(showgrid=False,mirror=True,ticks='outside',showline=True,zeroline=False),
     yaxis=dict(showgrid=False,mirror=True,ticks='outside',showline=True,zeroline=False,fixedrange=False),
     xaxis_title=r"<i>x</i>", yaxis_title=r"<i>f(x)</i>",
-    font_family="Serif"
+    # font_family="Serif"
 
 )
 
