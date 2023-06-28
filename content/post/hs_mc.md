@@ -10,7 +10,7 @@ categories: []
 date: 2019-06-02T12:53:27+01:00
 lastmod: 2019-06-02T12:53:27+01:00
 featured: false
-draft: true
+draft: false
 
 url_code: "https://editor.p5js.org/AndrewNeo/sketches/oo-NewVZl"
 
@@ -33,6 +33,10 @@ projects: []
 \begin{equation} 
     \langle X\rangle = \dfrac{\int\text{d}q^{N}\exp\big[-\beta\mathcal{V}(q^{N})\big]X(q^{N})}{\int\text{d}q^{N}~\exp\big[-\beta\mathcal{V}(q^{N})\big]}
 \end{equation}
+
+<script src="/js/p5.min.js" type="text/javascript"></script>
+<script src = "/js/test.js"></script>
+<!-- <div id="particles-holder"></div> this sets the position of the script -->
 ### Metropolis Criterion
 This can be alternatively written down as:
 \begin{equation}
