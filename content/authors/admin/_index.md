@@ -74,7 +74,8 @@ user_groups: []
 
 <script src="/js/p5.min.js" type="text/javascript"></script>
 <script src="/js/OpenSimplexNoise.js"></script>
-<script src = "/js/snowflakes.js"></script>
+<script src = "/js/marchingSquares.js"></script>
+
 Hello there! My name is Andreas, I'm a recent PhD graduate currently undertaking a postdoc with Prof. [Francesco Sciortino](https://www.roma1.infn.it/~sciortif/index.html) at Sapienza Università di Roma. 
 
 I like to mess about with computers, and during the day I use them to study the self-assembly of soft matter systems. This website is meant to act as a digital scrapbook for my journey as a scientist and my other interests.

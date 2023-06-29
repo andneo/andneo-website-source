@@ -3,7 +3,7 @@ title: Gradient-Based Optimisation
 linktitle: Gradient-Based Algorithms
 toc: true
 type: book
-date: "2019-05-05T00:00:00+01:00"
+date: "2023-06-29T00:00:00+01:00"
 draft: false
 url_code: "https://github.com/andneo/andneo_code/tree/master/deep_learning/optimisation_algorithms"
 menu:
@@ -329,6 +329,7 @@ def conjugate_gradient(self, line_method=1):
 The layout of the two optimisation algorithms are identical, the only difference with the conjugate gradient method is that we need to save the gradient and search direction at each iteration to use in the next one. Now if we optimise our function again using the conjugate gradient method we see that our zig-zag behaviour is greatly reduced!
 {{< video src="/media/deep_learning/videos/section_1/conjugate_gradient_zig_zag.mp4" type="video/mp4" controls="yes" >}}
 
+This is a good starting point, but in the next section we'll implement [quasi-Newton methods](/notes/deep_learning/01_numerical_optimisation/02_quasi_newton_methods) that can have even better performance.
 <!-- ## Testing our Optimisation Algorithms -->
 <!-- Now that we've built our optimiser we are ready to test it out.
 There are a set of canonical [test functions](https://en.wikipedia.org/wiki/Test_functions_for_optimization) for optimisation algorithms, which we'll use to be absolutely sure our code works.

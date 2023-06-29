@@ -34,8 +34,8 @@ projects: []
     \langle X\rangle = \dfrac{\int\text{d}q^{N}\exp\big[-\beta\mathcal{V}(q^{N})\big]X(q^{N})}{\int\text{d}q^{N}~\exp\big[-\beta\mathcal{V}(q^{N})\big]}
 \end{equation}
 
-<script src="/js/p5.min.js" type="text/javascript"></script>
-<script src = "/js/test.js"></script>
+<!-- <script src="/js/p5.min.js" type="text/javascript"></script>
+<script src = "/js/test.js"></script> -->
 <!-- <div id="particles-holder"></div> this sets the position of the script -->
 ### Metropolis Criterion
 This can be alternatively written down as:
