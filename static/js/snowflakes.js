@@ -20,6 +20,7 @@ let canvas;
 
 
 function setup() {
+  pixelDensity(1);
     canvas = createCanvas(windowWidth, 4.5*windowHeight); //make it an object
     canvas.position(0,0,'fixed');
     canvas.style('z-index','-1');
